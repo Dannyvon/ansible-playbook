@@ -1,0 +1,5 @@
+---
+- name: print info logs
+  debug: msg=The host ip is {{ inventory_hostname }} port vlue is {{ cluster_port }}
+- name: Clear redis Server
+  shell: "rm -rf /data/yzt-redis && docker rm -f redis-{{ cluster_port }} "

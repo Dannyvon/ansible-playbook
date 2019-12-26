@@ -1,0 +1,11 @@
+# The global variable file redis installation
+cluster_enabled: "yes"
+maxmemory: "2gb"
+policy: "allkeys-lru"
+requirepass: "a7xhWMnz1R4fNkCr"
+masterauth: "a7xhWMnz1R4fNkCr"
+appendonly: "yes"
+aofuserdbpreamble: "yes"
+protected_mode: "no"
+timeout: "1500"
+replicas: "1"
